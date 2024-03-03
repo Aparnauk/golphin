@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
     position: absolute;
 }
+.maindiv{
+    width: 100%;
+    height: 100%;
+}
 
 span {
     color: rgba(125, 219, 166, 1);
@@ -34,6 +38,7 @@ nav img {
     display: flex;
     align-items: center;
     margin-left: 55%;
+    font-size: 35px;
 }
 
 .dropdown h3 {
@@ -70,6 +75,7 @@ nav img {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 }
 
 .onehead {
@@ -126,7 +132,8 @@ nav img {
     margin-left: 6.5%;
     margin-top: 1%;
 }
-.disp{
+
+.disp {
     display: none;
 }
 
@@ -140,12 +147,20 @@ nav img {
     text-align: center;
     margin-left: 10%;
 }
+.row h2{
+margin-right: 115px;
+margin-top: 5%;
+}
 
 .two3 {
     border: 5px solid rgb(177, 176, 176);
     height: 350px;
     width: 300px;
     border-radius: 30px;
+}
+#para{
+    text-align: center;
+    margin-top: 5%;
 }
 
 .two3 img {
@@ -158,11 +173,16 @@ hr {
     margin-top: 80px;
 
 }
-.hr{
-    width: 85%; height: 1.5px; background-color: rgb(185, 181, 181); margin-top: 10%; margin-left: 7%;
+
+.hr {
+    width: 85%;
+    height: 1.5px;
+    background-color: rgb(185, 181, 181);
+    margin-top: 10%;
+    margin-left: 7%;
 }
 
-.secondfourth{
+.secondfourth {
     display: none;
 }
 
@@ -170,11 +190,11 @@ hr {
 .three h1 {
     font-size: 80px;
     font-weight: bold;
+    margin-left: 12%;
+    margin-top: 10%;
 }
-/* #image1{
-    display: none;
-} */
-#flex{
+
+#flex {
     display: flex;
 }
 
@@ -182,6 +202,7 @@ hr {
     font-size: 40px;
     color: rgba(103, 103, 103, 1);
     margin-left: 11.5%;
+    margin-top: 5%;
 }
 
 .three1 #image2 {
@@ -190,7 +211,8 @@ hr {
     margin-top: 15%;
     margin-right: 15px;
 }
-#image4{
+
+#image4 {
     display: none;
 }
 
@@ -201,8 +223,16 @@ hr {
 }
 
 /* fifith div */
-.boygirl{
+.boygirl {
     display: none;
+}
+
+#image1 {
+    display: none;
+}
+#boot{
+    margin-left: 12%;
+    margin-bottom: 10%;
 }
 
 /* sixth div */
@@ -211,8 +241,10 @@ hr {
     margin-top: 10%;
     font-size: 90px;
     font-weight: bold;
+    margin-right: 3%;
 }
-#ms a{
+
+#ms a {
     font-size: 22px;
 }
 
@@ -223,6 +255,10 @@ hr {
     height: 500px;
     display: flex;
     margin-top: 5%;
+}
+.rowings{
+    margin-left: 5%;
+    width: 280px;
 }
 
 .foot {
@@ -242,7 +278,7 @@ hr {
     color: rgba(135, 135, 135, 1);
 }
 
-#row {
+.rowing {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -250,14 +286,50 @@ hr {
     font-size: 25px;
     margin-top: 10%;
 }
-#footimg{
-    margin-right: 5%;
+
+
+
+/* footer */
+
+#innerfooter img {
+    width: 25px;
+    height: 15px;
+}
+#innerfooter{
+    width: 1000px;
+}
+.foot11 {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 92%;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.footerclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.fo {
+    width: 100%;
+    color: gray;
 }
 
 
 
 
-@media all and (max-width:950px) {
+@media all and (max-width:400px) {
+    .maindiv {
+        width: 375px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
     .dropdown {
         font-size: 10px;
         display: none;
@@ -313,26 +385,27 @@ hr {
         height: 500px;
         margin-top: 15%;
         position: absolute;
+        text-align: center;
     }
 
     .onehead {
         font-size: 35px;
-        margin-left: 12%;
+        margin-left: 10%;
         line-height: 150%;
         width: 300px;
         margin-top: 2%;
     }
 
     .button {
-        width: 30%;
-        height: 20%;
-        margin-left: 25%;
-        text-align: center;
+        width: 200px;
+        height: 50px;
+        margin-right: 10%;
     }
 
-    .button #know{
+    .button #know {
         font-size: 20px;
     }
+
     .oneimage {
         display: none;
     }
@@ -340,8 +413,8 @@ hr {
     #oneimage {
         display: block;
         width: 500px;
-        margin-top: 5%;
-        margin-left: 3%;
+        margin-top: 10%;
+        margin-left: 13%;
     }
 
     #oneimage1 {
@@ -357,198 +430,289 @@ hr {
         text-align: center;
         width: 75%;
     }
-    .two1{
+
+    .two1 {
         margin-left: 1%;
         text-align: center;
         padding-left: 0%;
 
     }
-    .two1 h1{
+
+    .two1 h1 {
         font-size: 30px;
-        margin-left: 1%;
+        margin-left: 12%;
         padding-left: 1%;
+        width: 300px;
     }
-    .two1 p{
+
+    .two1 p {
         font-size: 15px;
-        margin-top: 1%;
+        margin-top: 12%;
+        margin-left: 12%;
+        width: 300px;
+
     }
 
     /* <!-- second sub div --> */
 
-    .two2{
+    .two2 {
+        display: block;
         text-align: center;
         width: 120%;
         margin-top: 1px;
+        justify-content: center;
+        align-items: center;
     }
-    .two2 .row{
+
+    .two2 .row {
         margin-left: 2%;
         margin-top: 0;
     }
-    .two3{
+    .row h2{
+       margin-left: 5%;
+       width: 300px;
+       margin-bottom: 10%;
+    }
+
+    .two3 {
         border: 2px solid rgb(177, 176, 176);
         height: max-content;
-        width: 67%;
+        width: 80%;
+        margin-left: 6.5%;
     }
+
     .two3 img {
         margin: 5%;
         width: 50%;
-    } 
-    .text-start{
+    }
+
+    .text-start {
         font-size: 20px;
         margin-bottom: 10%;
     }
-    #h1{
+
+    #h1 {
         margin-left: 16%;
     }
-    #h2{
-        margin-left: 300%;
-        text-align: center;
+
+    #head2 h2 {
+        margin-left: 20%;
     }
-    #h3{
+
+    #h3 {
         margin-left: 50px;
     }
-    #para{
+
+    #para {
         margin-right: 10%;
-        margin-left: 1%;
-        margin-top: 0;
+        margin-left: 14%;
+        margin-top: 10%;
         padding: 0;
-        width:70%;
+        width: 70%;
     }
-    .hr{
+
+    .hr {
         margin-left: 5%;
         width: 90%;
         margin-top: 1px;
     }
-    
-/* third div */
-.three1 img {
-    width: 300px;
-    height: 300px;
-    margin-top: 2%;
-    margin-left: 5%;
-}
-.three p {
-    font-size: 20px;
-    color: rgba(103, 103, 103, 1);
-    margin-left: 1.5%;
-    width: 70%;
-    text-align: center;
-}
-.three p img{
-    width: 30px;
-}
-.three h1{
-    font-size: 38px;
-}
-.three{
-    display: block;
-}
-#flex{
-    display: block;
-}
-.three1{
-    display: none;
-}
-#image1{
-    display: block;
-    
-}
-#image3{
-    display: none;
-}
-#image4{
-    display: block;
-    margin-left: 20%;
-    margin-top: 40%;
-}
 
-/* fourth div */
-.fourth{
-    display: none;
+    /* third div */
+    .three1 img {
+        width: 300px;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .three p {
+        font-size: 20px;
+        color: rgba(103, 103, 103, 1);
+        margin-left: 1.5%;
+        width: 70%;
+        text-align: center;
+    }
+
+    .three p img {
+        width: 30px;
+    }
+
+    .three h1 {
+        font-size: 38px;
+        margin-left: 23%;
+    }
+
+    .three {
+        display: block;
+    }
+
+    #flex {
+        display: block;
+    }
+
+    .three1 {
+        display: none;
+    }
+
+    #image1 {
+        display: block;
+
+    }
+
+    #image3 {
+        display: none;
+    }
+
+    #image4 {
+        display: block;
+        margin-left: 20%;
+        margin-top: 40%;
+    }
+
+    /* fourth div */
+    .fourth {
+        display: none;
+    }
+
+    #boot {
+        margin-left: 1%;
+        width: 20%;
+    }
+
+    #thr {
+        display: none;
+        margin-top: 0;
+    }
+
+    .secondfourth {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .secondfourth h1 {
+        font-size: 38px;
+        margin-left: 10%;
+        font-weight: bold;
+    }
+
+    .secondfourth #hat {
+        width: 500px;
+        height: 200px;
+    }
+
+    .secondfourth p {
+        font-size: 20px;
+        width: 40%;
+    }
+
+    .imgs {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* fifth div */
+    .disp {
+        display: block;
+    }
+
+
+    .Goalphin {
+        display: none;
+    }
+
+    #row {
+        align-items: center;
+    }
+    .three p{
+        margin-left: 25px;
+        width: 85%;
+    }
+    #boot{
+        margin-left: 4%;
+    }
+
+    /* footer */
+    .footer {
+        display: block;
+        height: max-content;
+        width: 100%;
+        text-align: center;
+    }
+
+    #foot {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .foot p {
+        font-size: 20px;
+    }
+
+    .footerlast p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    footer img {
+        width: 50px;
+        height: 30px;
+    }
+
+
+    .footerlast {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #row1 {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 10%;
+        font-size: 15PX;
+        text-align: center;
+        margin-left: 12%;
+    }
+
+
+    /* footer */
+
+    #innerfooter1 img {
+        width: 5px;
+        height: 5px;
+    }
+    #innerfooter1{
+        width: 130px;
+        margin-top: 10%;
+    }
+#innerfooter{
+    margin-top: 5%;
+    margin-left: 1%;      
 }
-#boot{
-    margin-left: 1%;
-    width: 20%;
-}
-#thr{
-    display: none;
-    margin-top: 0;
-}
-.secondfourth{
-    text-align: center;
-    display: block;
+.foot11 {
+    margin-left: 3px;
     width: 100%;
+    justify-content: space-around;
+    font-size: 12px;
 }
-.secondfourth h1{
-    font-size: 38px;
-    margin-left: 10%;
-    font-weight: bold;
-}
-.secondfourth #hat{
+.footerclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 500px;
-    height: 200px;
-}
-.secondfourth p{
-    font-size: 20px;
-    width: 40%;
-}
-.imgs{
-    width: 30px;
-    height: 30px;
 }
 
-/* fifth div */
-.disp{
-    display: block;
-}
-
-.Goalphin{
-    display: none;
-}
-
-/* footer */
-.footer{
-    display: block;
-    height: max-content;
-    
-}
-#foot{
-    font-size: 30px;
-    margin-top: 50px;
-}
-.foot p{
-    font-size: 20px;
-}
-.footerlast p{
-    font-size: 10px;
-    margin-left: 1px;
+.fo {
     width: 100%;
+    color: gray;
 }
-footer #innerfooter{
-    font-size: 10px;
-}
-
-footer img{
-    width: 50px;
-    height: 30px;
-}
-#footimg{
+#footimg {
     width: 20px;
     height: 20px;
-}
-.fo{
-    width: 80%;
-}
-.down{
-width: 10px;
-height: 10px;
-}
-.footerlast{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-#ms a{
-    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 8%;
 }
 }
