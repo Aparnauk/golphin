@@ -22,6 +22,7 @@ nav {
     height: 120px;
     background-color: white;
     position: fixed;
+    z-index: 1;
 }
 
 .nav {
@@ -126,7 +127,6 @@ nav img {
 
 .two1 p {
     font-size: 28px;
-    font-weight: 400px;
     color: rgba(103, 103, 103, 1);
     width: 87%;
     margin-left: 6.5%;
